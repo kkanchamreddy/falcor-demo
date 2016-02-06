@@ -14,6 +14,14 @@ app.use('/model.json', falcorExpress.dataSourceRoute(function (req, res) {
       get: function() {
         return {path:["greeting"], value: "Hello World"};
       }
+    },
+    {
+      // match a request for the key "greeting"
+      route: "greeting12",
+      // respond with a PathValue with the value of "Hello World."
+      get: function() {
+        return {path:["greeting12"], value: "Hello World12"};
+      }
     }
   ]);
 }));
