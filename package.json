@@ -1,0 +1,27 @@
+{
+  "name": "falcor-demo",
+  "version": "1.0.0",
+  "description": "Exploring Falcor",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkanchamreddy/falcor-demo.git"
+  },
+  "keywords": [
+    "falcor"
+  ],
+  "author": "kiran kanchamreddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkanchamreddy/falcor-demo/issues"
+  },
+  "homepage": "https://github.com/kkanchamreddy/falcor-demo#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "falcor-express": "^0.1.2",
+    "falcor-router": "^0.2.12"
+  }
+}
